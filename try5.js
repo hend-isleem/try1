@@ -1,7 +1,7 @@
 function each(coll, f) {
   if (Array.isArray(coll)) {
-    for (var i = 0; i < coll.length; i++) {
-      f(coll[i], i);
+    for (var y = 0; y < coll.length; y++) {
+      f(coll[y], y);
     }
   } 
 }
