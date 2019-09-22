@@ -3,11 +3,7 @@ function each(coll, f) {
     for (var i = 0; i < coll.length; i++) {
       f(coll[i], i);
     }
-  } else {
-    for (var key in coll) {
-      f(coll[key], key);
-    }
-  }
+  } 
 }
 
 function filter(array, predicate) {
